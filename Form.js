@@ -24,7 +24,7 @@ class Form {
         this.input.hide();
         this.button.hide();
         player.name = this.input.value();
-        playerCount+=4;
+        playerCount+=1;
         player.index = playerCount;
         player.update();
         player.updateCount(playerCount);
